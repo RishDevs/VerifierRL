@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+# large training artifacts (store on HF Hub / Drive instead)
+outputs/
+checkpoints/
+wandb/
+runs/
+*.safetensors
+*.bin
