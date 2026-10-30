@@ -1,3 +1,5 @@
+<img src=".github/header.svg" width="100%" alt="VerifierRL — VerifierRL — README header">
+
 # VerifierRL
 
 A controlled study of whether reinforcement learning (GRPO with verifiable rewards) improves a small language model's math reasoning beyond supervised fine-tuning. The model is Qwen2.5-1.5B-Instruct. Training uses GSM8K and evaluation uses GSM8K plus SVAMP. The evals are built to tell real reasoning gains apart from format learning and reward hacking.
